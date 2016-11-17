@@ -71,6 +71,8 @@ tmpfs           1.5G     0  1.5G   0% /run/user/1000
 [root@ip-10-0-212-152 ec2-user]# echo never > /sys/kernel/mm/transparent_hugepage/defrag
 [root@ip-10-0-212-152 ec2-user]# grep -i HugePages_Total /proc/meminfo
 HugePages_Total:       0
+[root@ip-10-0-212-152 bin]# vi /etc/rc.local
+(add: echo never > /sys/kernel/mm/transparent_hugepage/defrag)
 ```
 
 ## 4. Report the network interface attributes
