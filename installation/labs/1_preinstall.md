@@ -113,6 +113,14 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 10.0.38.247     edge1
 ```
 
+
+**forward and backward dns lookup**
+```
+getent hosts 54.218.60.190
+getent hosts ec2-54-218-60-190.us-west-2.compute.amazonaws.com
+```
+
+
 ### ping
 ```
 [root@ip-10-0-212-152 ec2-user]# ping -c5 node1
