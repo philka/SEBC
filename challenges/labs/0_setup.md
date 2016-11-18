@@ -23,9 +23,9 @@ Linux version 3.10.0-327.36.3.el7.x86_64 (mockbuild@x86-037.build.eng.bos.redhat
 
 **master1**
 ```
-[root@ip-10-0-215-17 ec2-user]# df -h
+[root@ip-10-0-215-18 ec2-user]# df -h
 Filesystem      Size  Used Avail Use% Mounted on
-/dev/xvda2       40G  1.1G   39G   3% /
+/dev/xvda2       40G  929M   40G   3% /
 devtmpfs        7.3G     0  7.3G   0% /dev
 tmpfs           7.2G     0  7.2G   0% /dev/shm
 tmpfs           7.2G   17M  7.2G   1% /run
@@ -35,9 +35,9 @@ tmpfs           1.5G     0  1.5G   0% /run/user/1000
 
 **edge1**
 ```
-[root@ip-10-0-215-18 ec2-user]# df -h
+[root@ip-10-0-215-17 ec2-user]# df -h
 Filesystem      Size  Used Avail Use% Mounted on
-/dev/xvda2       40G  929M   40G   3% /
+/dev/xvda2       40G  1.1G   39G   3% /
 devtmpfs        7.3G     0  7.3G   0% /dev
 tmpfs           7.2G     0  7.2G   0% /dev/shm
 tmpfs           7.2G   17M  7.2G   1% /run
