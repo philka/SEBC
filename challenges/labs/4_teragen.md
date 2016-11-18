@@ -2,7 +2,7 @@
 
 ## `teragen`
 
-**generate files**
+### generate files
 
 ```
 [bavaria@ip-10-0-215-18 ec2-user]$ time hadoop jar /opt/cloudera/parcels/CDH/lib/hadoop-0.20-mapreduce/hadoop-examples.jar teragen -Dmapred.map.tasks=8 -D dfs.blocksize=16m -Dmapred.map.tasks.speculative.execution=false 51200000 /user/bavaria/tgen512m
@@ -53,7 +53,7 @@ user    0m6.091s
 sys 0m0.276s
 ```
 
-**`hdfs dfs -ls /user/bavaria/tgen512m`**
+### `hdfs dfs -ls /user/bavaria/tgen512m`
 
 ```
 [bavaria@ip-10-0-215-18 ec2-user]$ hdfs dfs -ls /user/bavaria/tgen512m
@@ -69,7 +69,7 @@ Found 9 items
 -rw-r--r--   3 bavaria bavaria  640000000 2016-11-18 05:50 /user/bavaria/tgen512m/part-m-00007
 ```
 
-**Show how many blocks are linked to this directory**
+### Show how many blocks are linked to this directory
 ```
 [bavaria@ip-10-0-215-18 ec2-user]$ hdfs fsck /user/bavaria/tgen512m -blocks
 Connecting to namenode via http://ip-10-0-215-18.us-west-2.compute.internal:50070
