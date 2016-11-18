@@ -55,7 +55,6 @@ Remove test database and access to it? [Y/n] Y
 ## Create Databases
 Create the following databases:
 * scm
-* 
 * rman
 * hive
 * oozie

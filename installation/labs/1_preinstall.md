@@ -3,7 +3,7 @@
 ## 1. Check `vm.swappiness` on all your nodes
 ---
 
-```bash
+```
 [ec2-user@ip-10-0-38-250 ~]$ cat /proc/sys/vm/swappiness
 30
 [ec2-user@ip-10-0-38-250 ~]$ sysctl vm.swappiness=1
